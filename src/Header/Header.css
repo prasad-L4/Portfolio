@@ -20,10 +20,7 @@
     color: white;
     display: inline-block;
 }
-.name{
-   
 
-}
 .text-head{
 font-size: 1.5rem;
 padding-top: 2rem;
@@ -34,14 +31,29 @@ padding-top: 2rem;
   
    
 }
+.typewriter{
+    overflow: hidden;
+    white-space: nowrap;
+    
+    animation: typing 1s steps(10) infinite alternate-reverse;
+}
+@keyframes typing{
+    from{width: 0;} to{
+    width: 20ch;
+    }
+    
+}
 .icons{
 display: flex;
-margin-top: 2rem;
+margin-bottom: 4rem;
+margin-left: 2rem;
 cursor: pointer;
 font-size: 1.5rem;
+color: grey;
+justify-content: center;
 
 }
 .git,.twitter,.insta{
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 

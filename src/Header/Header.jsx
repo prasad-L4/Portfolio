@@ -15,7 +15,7 @@ const Header = () => {
     <div class="lg:w-4/5 mx-auto flex flex-wrap">
       <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
         <h2 class="text-sm title-font text-gray-500 tracking-widest">Hello!</h2>
-        <h1 class=" text-gray-900 text-5xl title-font font-medium mb-4">I'm Krishna Prasad</h1>
+        <h1 class=" typewriter text-gray-900 text-4xl title-font font-medium mb-4">I'm Krishna Prasad</h1>
         <h2 className="text-head">I'm a Frontend Developer  </h2>
         <p class="text leading-relaxed mb-4">Passionate about creating elegant and intuitive user interfaces that combine design and functionality.</p>
        
@@ -28,6 +28,13 @@ const Header = () => {
     </div>
   </div>
 </section>
+<div className="icons">
+            <p className="linkedin"><AiOutlineLinkedin/></p>
+            <p className="git"><AiFillGithub/></p>
+            <p className="twitter"><FaTwitterSquare/></p>
+            <p className="insta"><BsInstagram/></p>
+
+          </div>
          
          
           
