@@ -1,7 +1,8 @@
 import React from "react";
 import "./Header.css";
 import me from '../images/me.png'
-
+import resume from '../images/resume.pdf'
+import {FiDownload } from 'react-icons/fi'
 import {AiOutlineLinkedin,AiFillGithub} from 'react-icons/ai'
 import {FaTwitterSquare} from 'react-icons/fa'
 import {BsInstagram} from 'react-icons/bs'
@@ -19,8 +20,12 @@ const Header = () => {
         <h2 className="text-head">I'm a Frontend Developer  </h2>
         <p class="text leading-relaxed mb-4">Passionate about creating elegant and intuitive user interfaces that combine design and functionality.</p>
        
+        <a href={resume} download="krishnaprasad_resume.pdf">
+              <button className="resume-button flex items-center justify-center">
+                Resume <FiDownload className="ml-2" />
+              </button>
+            </a>
         
-       
         
       </div>
       <img alt="ecommerce" class=" rounded-5 lg:w-2/5 w-30 lg:h-1/2 h-64 object-cover object-center rounded" src={me}/>
