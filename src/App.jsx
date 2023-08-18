@@ -5,6 +5,7 @@ import Navbar from './NavBar/Navbar'
 import Header from './Header/Header';
 import Skill from './Skills/Skill';
 import Works from './Works/Works';
+import Contact from './Contact/Contact';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Header/>
     <Skill/>
     <Works/>
+    <Contact/>
   
     
 

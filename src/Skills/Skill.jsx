@@ -25,12 +25,14 @@ const Skill = () => {
       </video>
             </div>
             <div class="flex-grow sm:text-left mt-6 sm:mt-0">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                Shooting Stars
+              <h2 class="text-white text-lg title-font font-medium mb-2">
+                REACT JS
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+              Proficient in building interactive user interfaces and dynamic
+                web applications using React.js. Skilled in component-based
+                architecture, state management, and integrating APIs to create
+                seamless user experiences.
               </p>
             </div>
            
@@ -39,12 +41,14 @@ const Skill = () => {
 
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                The Catalyzer
+              <h2 class="text-white text-lg title-font font-medium mb-2">
+                JAVA SCRIPT
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+              Strong understanding of JavaScript fundamentals and its role in
+                creating dynamic and interactive web content. Capable of
+                utilizing libraries and frameworks to streamline development
+                processes and enhance user interactivity.
               </p>
             </div>
             <video loop muted autoPlay className="video-about">
@@ -57,24 +61,28 @@ const Skill = () => {
         <source src={html} type="video/mp4"></source>
       </video>
             <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                The 400 Blows
+              <h2 class="text-white text-lg title-font font-medium mb-2">
+                HTML
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+              Well-versed in crafting structured and semantic HTML markup to
+                create the foundation of web pages. Knowledgeable about
+                accessibility standards and the latest HTML5 features to enhance
+                website functionality.
               </p>
             </div>
           </div>
 
           <div class="flex items-center lg:w-3/5 mx-auto border-t pt-10 mt-10 border-gray-200 sm:flex-row flex-col">
             <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                The Catalyzer
+              <h2 class="text-white text-lg title-font font-medium mb-2">
+                CSS
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+              Experienced in styling web applications with CSS to achieve
+                visually appealing and responsive designs. Proficient in layout
+                techniques, CSS pre-processors, and adapting designs for various
+                screen sizes.
               </p>
             </div>
             <video loop muted autoPlay className="video-about">

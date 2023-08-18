@@ -89,3 +89,27 @@ justify-content: center;
 .resume-button:hover::before{
     transform: scaleX(1);
 }
+.linkedin:hover{
+    transform: scale(1.5);
+    transition: 1s;
+   
+
+}
+.git:hover{
+    transform: scale(1.5);
+    transition: 1s;
+   
+
+}
+.twitter:hover{
+    transform: scale(1.5);
+    transition: 1s;
+   
+
+}
+.insta:hover{
+    transform: scale(1.5);
+    transition: 1s;
+   
+
+}

@@ -37,7 +37,7 @@ function Works() {
                 <p className=" pop text-gray-700  h-[100%]  text-base leading-[1.4] text-justify w-[100%]">
                   {work.desc}
                 </p>
-                <div className=" bg-white  flex items-center w-[100%] justify-center gap-4">
+                <div className=" bg-gray-200  flex items-center w-[100%] justify-center gap-4">
                   <a
                     href={work.live}
                     target="_blank"
