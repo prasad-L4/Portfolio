@@ -34,10 +34,11 @@ const Header = () => {
   </div>
 </section>
 <div className="icons">
-            <p className="linkedin"><AiOutlineLinkedin/></p>
-            <p className="git"><AiFillGithub/></p>
-            <p className="twitter"><FaTwitterSquare/></p>
-            <p className="insta"><BsInstagram/></p>
+            
+            <a href="https://www.linkedin.com/in/krishna-prasad-2596a7286/" className="linkedin"><AiOutlineLinkedin/></a>
+            <a href="https://github.com/prasad-L4" className="git"><AiFillGithub/></a>
+            <a href="https://twitter.com/prasad_L4" className="twitter"><FaTwitterSquare/></a>
+            <a href="https://instagram.com/prasad_l4?igshid=MzRlODBiNWFlZA==" className="insta"><BsInstagram/></a>
 
           </div>
          
