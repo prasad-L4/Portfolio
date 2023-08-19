@@ -14,10 +14,10 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Header/>
-    <Skill/>
-    <Works/>
-    <Contact/>
+    <Header id='head'/>
+    <Skill id='skills'/>
+    <Works id='works'/>
+    <Contact id='contact'/>
   
     
 

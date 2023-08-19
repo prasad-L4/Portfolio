@@ -11,7 +11,7 @@ const Skill = () => {
     <>
      
    
-      
+      <div id="skills">
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
         <div data-aos="fade-up" className="relative mb-5">
@@ -93,7 +93,7 @@ const Skill = () => {
       </section>
     
 
-    
+      </div>
     </>
   );
 };

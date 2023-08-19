@@ -7,7 +7,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 function Works() {
   return (
     <>
-    <>
+    <div id="works">
       <div data-aos="fade-up" className="relative mt-20 mb-12 mx-16 ">
         <h3 className=" my-skills text-3xl  text-gray-400 sm:text-3xl">
           My Works
@@ -27,7 +27,7 @@ function Works() {
                 <img
                   src={work.image}
                   alt={work.title}
-                  className=" image  object-cover w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
+                  className=" image flex mx-auto  object-cover w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
                 />
               </div>
 
@@ -37,7 +37,7 @@ function Works() {
                 <p className=" pop text-gray-700  h-[100%]  text-base leading-[1.4] text-justify w-[100%]">
                   {work.desc}
                 </p>
-                <div className=" bg-gray-200  flex items-center w-[100%] justify-center gap-4">
+                <div className="  bg-gray-200  flex items-center w-[100%]  justify-center gap-4">
                   <a
                     href={work.live}
                     target="_blank"
@@ -60,7 +60,7 @@ function Works() {
                 </div>
               </div>
               
-                <p className="text-white text-xl font-medium mt-3 ms-10 mb-20 sm:text-lg name">
+                <p className="title text-white text-xl font-medium  mt-3 ms-10 mb-20 sm:text-lg name">
                   {work.title}
                 </p>
               
@@ -68,7 +68,7 @@ function Works() {
           </div>
         ))}
       </div>
-    </>
+    </div>
     </>
   )
 }
