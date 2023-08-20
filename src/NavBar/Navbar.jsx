@@ -5,9 +5,9 @@ import {Link} from 'react-scroll'
 const Navbar = () => {
   return (
     <>
-    <div>
-      <header className="navbar text-gray-600 bg-transparent  body-font">
-        <div className="container mx-auto flex flex-wrap  flex-col md:flex-row items-center">
+    <div >
+      <header data-aos="fade-down" className="navbar text-gray-600 bg-transparent  body-font">
+        <div  className="container mx-auto flex flex-wrap  flex-col md:flex-row items-center">
           <a className="flex  title-font font-medium items-center text-white-900 mb-4 md:mb-0">
             <span className=" logo ml-3  ">PortFolio</span>
           </a>

@@ -19,16 +19,16 @@ const Skill = () => {
         <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
       </div>
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full  text-indigo-500 flex-shrink-0">
+            <div data-aos="fade-up" class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full  text-indigo-500 flex-shrink-0">
             <video loop muted autoPlay className="video-about">
         <source src={react} type="video/mp4"></source>
       </video>
             </div>
-            <div class="flex-grow sm:text-left mt-6 sm:mt-0">
+            <div  data-aos="fade-up" class="flex-grow sm:text-left mt-6 sm:mt-0">
               <h2 class="text-white text-lg title-font font-medium mb-2">
                 REACT JS
               </h2>
-              <p class="leading-relaxed text-base">
+              <p  data-aos="fade-up" class="leading-relaxed text-base">
               Proficient in building interactive user interfaces and dynamic
                 web applications using React.js. Skilled in component-based
                 architecture, state management, and integrating APIs to create
@@ -40,27 +40,27 @@ const Skill = () => {
           </div>
 
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-            <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
+            <div  data-aos="fade-up" class="flex-grow sm:text-left  mt-6 sm:mt-0">
               <h2 class="text-white text-lg title-font font-medium mb-2">
                 JAVA SCRIPT
               </h2>
-              <p class="leading-relaxed text-base">
+              <p   class="leading-relaxed text-base">
               Strong understanding of JavaScript fundamentals and its role in
                 creating dynamic and interactive web content. Capable of
                 utilizing libraries and frameworks to streamline development
                 processes and enhance user interactivity.
               </p>
             </div>
-            <video loop muted autoPlay className="video-about">
+            <video   data-aos="fade-up" loop muted autoPlay className="video-about">
         <source src={javascript} type="video/mp4"></source>
       </video>
           </div>
 
           <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-          <video loop muted autoPlay className="video-about">
+          <video data-aos="fade-up" loop muted autoPlay className="video-about">
         <source src={html} type="video/mp4"></source>
       </video>
-            <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
+            <div data-aos="fade-up" class="flex-grow sm:text-left  mt-6 sm:mt-0">
               <h2 class="text-white text-lg title-font font-medium mb-2">
                 HTML
               </h2>
@@ -74,7 +74,7 @@ const Skill = () => {
           </div>
 
           <div class="flex items-center lg:w-3/5 mx-auto border-t pt-10 mt-10 border-gray-200 sm:flex-row flex-col">
-            <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
+            <div data-aos="fade-up" class="flex-grow sm:text-left  mt-6 sm:mt-0">
               <h2 class="text-white text-lg title-font font-medium mb-2">
                 CSS
               </h2>
@@ -85,7 +85,7 @@ const Skill = () => {
                 screen sizes.
               </p>
             </div>
-            <video loop muted autoPlay className="video-about">
+            <video data-aos="fade-up" loop muted autoPlay className="video-about">
         <source src={css} type="video/mp4"></source>
       </video>
           </div>

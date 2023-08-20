@@ -10,17 +10,17 @@ const Contact = () => {
       <section className="text-gray-600 body-font relative">
   <div className="container px-5 py-24 mx-auto">
 
-  <div data-aos="fade-up" classNameName="relative mb-5">
-        <h3 classNameName="index-module_type__E-SaG text-3xl  text-gray-400 sm:text-3xl">Contact Me</h3>
-        <span classNameName="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
+  <div data-aos="fade-up" className="relative mb-5">
+        <h3 className="index-module_type__E-SaG text-3xl  text-gray-400 sm:text-3xl">Contact </h3>
+        <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
       </div>
 
 
-    <div className="flex flex-col text-center w-full mb-12">
+    <div data-aos="fade-up" className="flex flex-col text-center w-full mb-12">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Connect with Your Future Front-End Developer</h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Elevate Your Business with a Exquisitely Designed Website - Contact Me Now!</p>
     </div>
-    <div className="lg:w-1/2 md:w-2/3 mx-auto">
+    <div  className="lg:w-1/2 md:w-2/3 mx-auto">
         
       <form action="mailto:krishnaprasad8369.com" className="flex flex-wrap -m-2">
        
@@ -45,7 +45,7 @@ const Contact = () => {
         <div className="p-2 w-full">
         <button
                     type="submit"
-                    classNameName="send-button mx-auto flex items-center justify-center"
+                    className="send-button mx-auto flex items-center justify-center"
                   >
                     Send <FiSend classNameName="icon ml-2" />
                   </button>
@@ -53,11 +53,11 @@ const Contact = () => {
         
 
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          <a className="text-indigo-500">krishnaprasad8369@gmail.com</a>
+          <a href='mailto:krishnaprasad8369@gmail.com'  className="text-indigo-500 cursor-pointer">krishnaprasad8369@gmail.com</a>
           <p className="leading-normal my-5">krishnaprasad
             <br/>malappuram, pin 673641
           </p>
-          <span className="inline-flex">
+          <span data-aos="fade-up"  className="inline-flex">
             <a href='https://www.facebook.com/profile.php?id=100008050299208' className="fb text-gray-500">
               <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
