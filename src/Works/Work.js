@@ -1,5 +1,5 @@
 import travel from'../images/travel.png'
-import olx from '../images/olx.png'
+import Nike from '../images/Nike.png'
 import ecommerce from'../images/ecommerce.png'
 import recipes from'../images/recipes.png'
 import netflix from '../images/netflix.png'
@@ -10,19 +10,21 @@ export const work=[
      image:travel,
      desc:'It is an immersive tour and travel website designed using React.js that aims to inspire wanderlust and provide users with a seamless platform to discover and plan their dream vacations.',
      git:'https://github.com/prasad-L4/Travelwebsite',
-    live:'https://travelwebsite-zwch.vercel.app/'},
+    live:'https://travelwebsite-zwch-oodarz1ac-prasad-l4.vercel.app/'},
     
 
 
 
     { id:2,
-    title:'OLX-Clone',
-    image:olx,
-    desc:'This project is an OLX clone built using React.js and Firebase, providing a user-friendly platform for buying and selling items. With the ability to sign up and sign in, users can easily create accounts to start listing items for sale or browse and purchase items from other sellers.',
-    git:'https://github.com/prasad-L4/OLX-clone',
-   live:'https://olx-clone-nu.vercel.app/'},
+    title:'Nike Ecommerce',
+    image:Nike,
+    desc:'Expert React developer, weaving Tailwind CSS finesse and Redux mastery to forge captivating Nike ECommerce Web Apps. Elevates UX with dynamic animations and ensures secure, seamless checkout experiences. A dynamic force in delivering top-tier, visually stunning web application'
+    ,
+    git:'  https://github.com/prasad-L4/Nike-Ecommerce-web-app',
+   live:'https://nike-ecommerce-web-app-3fj5.vercel.app/'},
    
-   
+ 
+
    { id:3,
     title:'E-COMMERCE-WEB-APP',
     image:ecommerce,
