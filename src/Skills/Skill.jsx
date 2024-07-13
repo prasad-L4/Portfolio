@@ -56,7 +56,7 @@ const Skill = () => {
       </video>
           </div>
 
-          <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
+          <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <video data-aos="fade-up" loop muted autoPlay className="video-about">
         <source src={html} type="video/mp4"></source>
       </video>
@@ -70,6 +70,7 @@ const Skill = () => {
                 accessibility standards and the latest HTML5 features to enhance
                 website functionality.
               </p>
+              <iframe src=""  frameborder="0"></iframe>
             </div>
           </div>
 

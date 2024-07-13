@@ -34,10 +34,10 @@ function Works() {
               <div
                 className={` popup  h-[280px] w-fit shadow-xl rounded-md overflow-hidden sm:h-[280px] sm:w-[100%] p-4`}
               >
-                <p className=" pop text-gray-700  h-[100%]  text-base leading-[1.4] text-justify w-[100%]">
+                <p className=" pop text-gray-700 px-4 py-4 h-[100%]  text-base leading-[1.4] text-justify w-[100%]">
                   {work.desc}
                 </p>
-                <div className="  bg-gray-200  flex items-center w-[100%]  justify-center gap-4">
+                <div className="   bg-transparent  flex items-center w-[100%]  justify-center gap-4">
                   <a
                     href={work.live}
                     target="_blank"
